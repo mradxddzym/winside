@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/User_center_achievement_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/user_center_chievenment_background">
+
+    <include layout="@layout/activity_user_center_title"/>
+
+
+    <!-- 获得红花-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_get_redflower"
+        android:layout_marginLeft="@dimen/y103"
+        android:layout_marginTop="@dimen/x131"
+        android:layout_width="@dimen/y42"
+        android:layout_height="@dimen/x16"
+        android:focusable="true"
+        android:background="@mipmap/user_center_achievement_get_redflower"/>
+    <!-- 获得红花 动画-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_get_redflower_animation"
+        android:layout_marginLeft="@dimen/y101"
+        android:layout_marginTop="@dimen/x128"
+        android:layout_width="@dimen/y47"
+        android:layout_height="@dimen/x22"
+        android:background="@mipmap/user_center_achievement_selector_animation"
+        android:visibility="invisible"/>
+    <!-- 兑换礼品-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_exchange_gift"
+        android:layout_marginLeft="@dimen/y146"
+        android:layout_marginTop="@dimen/x131"
+        android:layout_width="@dimen/y42"
+        android:focusable="true"
+        android:layout_height="@dimen/x16"
+        android:background="@mipmap/user_center_achievement_exchange_gift"/>
+    <!-- 兑换礼品 动画-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_exchange_gift_animation"
+        android:layout_marginLeft="@dimen/y144"
+        android:layout_marginTop="@dimen/x128"
+        android:layout_width="@dimen/y47"
+        android:layout_height="@dimen/x22"
+        android:background="@mipmap/user_center_achievement_selector_animation"
+        android:visibility="invisible"/>
+
+
+
+    <!-- 草系徽章-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_grass_badge"
+        android:layout_marginLeft="@dimen/y212"
+        android:layout_marginTop="@dimen/x122"
+        android:layout_width="@dimen/y33"
+        android:layout_height="@dimen/x44"
+        android:background="@mipmap/badge_series_grass_false"/>
+    <!-- 水系徽章-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_water_badge"
+        android:layout_marginLeft="@dimen/y257"
+        android:layout_marginTop="@dimen/x122"
+        android:layout_width="@dimen/y33"
+        android:layout_height="@dimen/x44"
+        android:background="@mipmap/badge_series_water_false"/>
+    <!-- 石系徽章-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_stone_badge"
+        android:layout_marginLeft="@dimen/y300"
+        android:layout_marginTop="@dimen/x122"
+        android:layout_width="@dimen/y33"
+        android:layout_height="@dimen/x44"
+        android:background="@mipmap/badge_series_stone_false"/>
+    <!-- 火系徽章-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_fire_badge"
+        android:layout_marginLeft="@dimen/y347"
+        android:layout_marginTop="@dimen/x122"
+        android:layout_width="@dimen/y33"
+        android:layout_height="@dimen/x44"
+        android:background="@mipmap/badge_series_fire_false"/>
+    <!-- 冰系徽章-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_ice_badge"
+        android:layout_marginLeft="@dimen/y212"
+        android:layout_marginTop="@dimen/x189"
+        android:layout_width="@dimen/y33"
+        android:layout_height="@dimen/x44"
+        android:background="@mipmap/badge_series_ice_false"/>
+    <!-- 雷系徽章-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_thunder_badge"
+        android:layout_marginLeft="@dimen/y257"
+        android:layout_marginTop="@dimen/x189"
+        android:layout_width="@dimen/y33"
+        android:layout_height="@dimen/x44"
+        android:background="@mipmap/badge_series_thunder_false"/>
+    <!-- 风系徽章-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_wind_badge"
+        android:layout_marginLeft="@dimen/y300"
+        android:layout_marginTop="@dimen/x189"
+        android:layout_width="@dimen/y33"
+        android:layout_height="@dimen/x44"
+        android:background="@mipmap/badge_series_wind_false"/>
+    <!-- 幽系徽章-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_ghost_badge"
+        android:layout_marginLeft="@dimen/y347"
+        android:layout_marginTop="@dimen/x189"
+        android:layout_width="@dimen/y33"
+        android:layout_height="@dimen/x44"
+        android:background="@mipmap/badge_series_ghost_false"/>
+
+    <!-- 左边的公仔-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_doll_left"
+        android:layout_marginLeft="@dimen/y221"
+        android:layout_marginTop="@dimen/x98"
+        android:layout_width="@dimen/y59"
+        android:layout_height="@dimen/x77"
+        android:background="@mipmap/user_center_achievement_doll_left"
+        android:visibility="invisible"/>
+
+    <!-- 左边公仔的兑换-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_doll_left_exchange"
+        android:layout_marginLeft="@dimen/y237"
+        android:layout_marginTop="@dimen/x216"
+        android:layout_width="@dimen/y31"
+        android:layout_height="@dimen/x16"
+        android:focusable="true"
+        android:background="@mipmap/user_center_achievement_doll_exchange"
+        android:visibility="invisible"
+        android:nextFocusLeft="@id/iv_user_center_achievement_exchange_gift"/>
+    <!-- 左边公仔的兑换  动画-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_doll_left_exchange_animation"
+        android:layout_marginLeft="@dimen/y234"
+        android:layout_marginTop="@dimen/x213"
+        android:layout_width="@dimen/y37"
+        android:layout_height="@dimen/x23"
+        android:background="@mipmap/user_center_achievement_doll_exchange_animation"
+        android:visibility="invisible"/>
+
+    <!-- 右边的公仔-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_doll_right"
+        android:layout_marginLeft="@dimen/y308"
+        android:layout_marginTop="@dimen/x98"
+        android:layout_width="@dimen/y59"
+        android:layout_height="@dimen/x77"
+        android:background="@mipmap/user_center_achievement_doll_right"
+        android:visibility="invisible"/>
+
+    <!-- 右边公仔的兑换-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_doll_right_exchange"
+        android:layout_marginLeft="@dimen/y323"
+        android:layout_marginTop="@dimen/x216"
+        android:layout_width="@dimen/y31"
+        android:layout_height="@dimen/x16"
+        android:focusable="true"
+        android:background="@mipmap/user_center_achievement_doll_exchange"
+        android:visibility="invisible"
+        />
+    <!-- 右边公仔的兑换  动画-->
+    <ImageView
+        android:id="@+id/iv_user_center_achievement_doll_right_exchange_animation"
+        android:layout_marginLeft="@dimen/y320"
+        android:layout_marginTop="@dimen/x213"
+        android:layout_width="@dimen/y37"
+        android:layout_height="@dimen/x23"
+        android:background="@mipmap/user_center_achievement_doll_exchange_animation"
+        android:visibility="invisible"/>
+</RelativeLayout>

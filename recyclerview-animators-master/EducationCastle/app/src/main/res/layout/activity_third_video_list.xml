@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/third_video_list_background">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rl_third_video_list"
+        android:layout_marginLeft="@dimen/y176"
+        android:layout_marginTop="@dimen/x50"
+        android:layout_width="@dimen/y237"
+        android:layout_height="@dimen/x220"/>
+</RelativeLayout>

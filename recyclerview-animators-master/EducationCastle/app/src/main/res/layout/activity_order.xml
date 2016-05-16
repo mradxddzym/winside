@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/order_background">
+<!--立即订购-->
+    <ImageButton
+        android:id="@+id/order_fast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/y200"
+        android:layout_marginTop="@dimen/x244"
+        android:focusable="true"
+        android:background="@drawable/order_selsctor" />
+<!--返回-->
+    <ImageButton
+        android:id="@+id/order_back"
+        android:nextFocusDown="@id/order_fast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/x30"
+        android:layout_marginTop="@dimen/y10"
+        android:background="@drawable/order_back_selsctor" />
+</RelativeLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background">
+
+    <include layout="@layout/activity_main_title" />
+
+    <!--右边的风车，保留-->
+
+    <!--  <ImageView
+           android:id="@+id/iv_main_title_book"
+           android:layout_width="@dimen/x44"
+           android:layout_height="@dimen/y37"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="@dimen/y17"
+           android:layout_marginTop="@dimen/x25"
+           android:focusable="true"
+           android:src="@mipmap/title_book" />-->
+
+    <!--gif风车动画，非常耗内存，如果报OOM，可以舍弃-->
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/iv_main_title_book"
+        android:layout_width="@dimen/x44"
+        android:layout_height="@dimen/y37"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/y17"
+        android:layout_marginTop="@dimen/x25"
+        android:focusable="true"
+        android:src="@drawable/anim_book"
+        />
+    <ImageView
+        android:id="@+id/iv_main_title_book_animation"
+        android:layout_width="@dimen/y25"
+        android:layout_height="@dimen/x30"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/y23"
+        android:layout_marginTop="@dimen/x30" />
+    <!-- 左边电视推荐位-->
+    <ImageView
+        android:id="@+id/iv_main_tv"
+        android:layout_width="@dimen/y106"
+        android:layout_height="@dimen/x88"
+        android:layout_marginLeft="@dimen/y54"
+        android:layout_marginTop="@dimen/x118"
+        android:background="@drawable/selector_middle_tv"
+        android:focusable="true" />
+
+    <!-- 左边电视推荐位 动画-->
+    <ImageView
+        android:id="@+id/iv_main_tv_animation"
+        android:layout_width="@dimen/y106"
+        android:layout_height="@dimen/x88"
+        android:layout_marginLeft="@dimen/y54"
+        android:layout_marginTop="@dimen/x118" />
+
+    <!-- 家长必看 动画-->
+    <ImageView
+        android:id="@+id/iv_main_parent_must_watch"
+        android:layout_width="@dimen/y54"
+        android:layout_height="@dimen/x48"
+        android:layout_marginLeft="@dimen/y418"
+        android:layout_marginTop="@dimen/x177"
+        android:focusable="true"
+        android:nextFocusRight="@id/iv_main_tv" />
+
+    <!-- 火车头推荐位-->
+    <ImageView
+        android:id="@+id/iv_main_train_head"
+        android:layout_width="@dimen/y75"
+        android:layout_height="@dimen/x80"
+        android:layout_marginLeft="@dimen/y48"
+        android:layout_marginTop="@dimen/x208"
+        android:focusable="true"
+        android:paddingBottom="@dimen/x7"
+        android:paddingLeft="@dimen/y6"
+        android:paddingRight="@dimen/y6"
+        android:paddingTop="@dimen/x7" />
+
+
+    <!-- 火车推荐位一-->
+    <ImageView
+        android:id="@+id/iv_main_train_frist"
+        android:layout_width="@dimen/y68"
+        android:layout_height="@dimen/x40"
+        android:layout_marginLeft="@dimen/y127"
+        android:layout_marginTop="@dimen/x242"
+        android:focusable="true" />
+
+    <!-- 火车推荐位一 动画-->
+    <ImageView
+        android:id="@+id/iv_main_train_frist_animation"
+        android:layout_width="@dimen/y78"
+        android:layout_height="@dimen/x52"
+        android:layout_marginLeft="@dimen/y122"
+        android:layout_marginTop="@dimen/x235"
+        android:background="@mipmap/train_animation"
+        android:visibility="invisible" />
+
+    <!-- 火车推荐位二-->
+    <ImageView
+        android:id="@+id/iv_main_train_second"
+        android:layout_width="@dimen/y68"
+        android:layout_height="@dimen/x40"
+        android:layout_marginLeft="@dimen/y230"
+        android:layout_marginTop="@dimen/x242"
+        android:focusable="true" />
+
+    <!-- 火车推荐位二 动画-->
+    <ImageView
+        android:id="@+id/iv_main_train_second_animation"
+        android:layout_width="@dimen/y78"
+        android:layout_height="@dimen/x52"
+        android:layout_marginLeft="@dimen/y225"
+        android:layout_marginTop="@dimen/x235"
+        android:background="@mipmap/train_animation"
+        android:visibility="invisible" />
+
+    <!-- 火车推荐位三-->
+    <ImageView
+        android:id="@+id/iv_main_train_third"
+        android:layout_width="@dimen/y68"
+        android:layout_height="@dimen/x40"
+        android:layout_marginLeft="@dimen/y327"
+        android:layout_marginTop="@dimen/x241"
+        android:focusable="true"
+        android:nextFocusUp="@id/iv_main_parent_must_watch" />
+
+    <!-- 火车推荐位三 动画-->
+    <ImageView
+        android:id="@+id/iv_main_train_third_animation"
+        android:layout_width="@dimen/y78"
+        android:layout_height="@dimen/x52"
+        android:layout_marginLeft="@dimen/y323"
+        android:layout_marginTop="@dimen/x235"
+        android:background="@mipmap/train_animation"
+        android:visibility="invisible" />
+
+    <!-- 用户中心-->
+    <ImageView
+        android:id="@+id/iv_main_user_center"
+        android:layout_width="@dimen/y29"
+        android:layout_height="@dimen/x35"
+        android:layout_marginLeft="@dimen/y412"
+        android:layout_marginTop="@dimen/x229"
+        android:background="@mipmap/main_user_center"
+        android:focusable="true"
+        android:nextFocusUp="@id/iv_main_parent_must_watch" />
+    <!-- 用户中心 动画-->
+    <ImageView
+        android:id="@+id/iv_main_user_center_animation"
+        android:layout_width="@dimen/y39"
+        android:layout_height="@dimen/x46"
+        android:layout_marginLeft="@dimen/y406"
+        android:layout_marginTop="@dimen/x222"
+        android:background="@mipmap/main_user_center_animation"
+        android:visibility="invisible" />
+
+
+    <HorizontalScrollView
+        android:layout_width="@dimen/y210"
+        android:layout_height="@dimen/x111"
+        android:layout_marginLeft="@dimen/y193"
+        android:layout_marginTop="@dimen/x111"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/lv_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+    <!-- 左边的手 -->
+    <ImageView
+        android:id="@+id/iv_main_middle_hand_left"
+        android:layout_width="@dimen/y23"
+        android:layout_height="@dimen/y22"
+        android:layout_marginLeft="@dimen/y169"
+        android:layout_marginTop="@dimen/x150"
+        android:background="@mipmap/main_middle_hand_left"
+        android:visibility="invisible" />
+    <!-- 右边的手 -->
+    <ImageView
+        android:id="@+id/iv_main_middle_hand_right"
+        android:layout_width="@dimen/y23"
+        android:layout_height="@dimen/y22"
+        android:layout_marginLeft="@dimen/y405"
+        android:layout_marginTop="@dimen/x150"
+        android:background="@mipmap/main_middle_hand_right" />
+
+</RelativeLayout>

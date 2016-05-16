@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- 返回 -->
+    <ImageView
+        android:id="@+id/iv_user_center_back"
+        android:layout_marginLeft="@dimen/y395"
+        android:layout_marginTop="@dimen/x20"
+        android:layout_width="@dimen/y42"
+        android:layout_height="@dimen/x23"
+        android:focusable="true"
+        android:background="@mipmap/iv_second_back"
+        />
+
+    <!-- 返回 闪动-->
+    <ImageView
+        android:id="@+id/iv_user_center_back_animation"
+        android:layout_marginLeft="@dimen/y388"
+        android:layout_marginTop="@dimen/x13"
+        android:layout_width="@dimen/y54"
+        android:layout_height="@dimen/x37"
+        android:background="@mipmap/iv_second_back_animation"
+        android:visibility="invisible"/>
+    <!-- 成就 -->
+    <RadioButton
+        android:id="@+id/iv_user_center_achievement"
+        android:layout_marginLeft="@dimen/y110"
+        android:layout_marginTop="@dimen/x20"
+        android:layout_width="@dimen/y40"
+        android:layout_height="@dimen/x54"
+        android:focusable="true"
+        android:button="@null"
+        android:nextFocusUp="@id/iv_user_center_back"
+        android:background="@drawable/selector_usercenter_title_achievement"/>
+
+    <!-- 宠物 -->
+    <RadioButton
+        android:id="@+id/iv_user_center_pet"
+        android:layout_marginLeft="@dimen/y168"
+        android:layout_marginTop="@dimen/x20"
+        android:layout_width="@dimen/y40"
+        android:layout_height="@dimen/x54"
+        android:focusable="true"
+        android:button="@null"
+        android:nextFocusUp="@id/iv_user_center_back"
+        android:background="@drawable/selector_usercenter_title_pet"/>
+
+    <!-- 收藏 -->
+    <RadioButton
+        android:id="@+id/iv_user_center_collection"
+        android:layout_marginLeft="@dimen/y224"
+        android:layout_marginTop="@dimen/x20"
+        android:layout_width="@dimen/y40"
+        android:layout_height="@dimen/x54"
+        android:focusable="true"
+        android:button="@null"
+        android:nextFocusUp="@id/iv_user_center_back"
+        android:background="@drawable/selector_usercenter_title_collection"/>
+
+    <!-- 记录 -->
+    <RadioButton
+        android:id="@+id/iv_user_center_record"
+        android:layout_marginLeft="@dimen/y279"
+        android:layout_marginTop="@dimen/x20"
+        android:layout_width="@dimen/y40"
+        android:layout_height="@dimen/x54"
+        android:focusable="true"
+        android:button="@null"
+        android:nextFocusUp="@id/iv_user_center_back"
+        android:background="@drawable/selector_usercenter_title_record"/>
+
+    <!-- 反馈 -->
+    <RadioButton
+        android:id="@+id/iv_user_center_response"
+        android:layout_marginLeft="@dimen/y335"
+        android:layout_marginTop="@dimen/x20"
+        android:layout_width="@dimen/y40"
+        android:layout_height="@dimen/x54"
+        android:focusable="true"
+        android:button="@null"
+        android:nextFocusUp="@id/iv_user_center_back"
+        android:background="@drawable/selector_usercenter_title_response"/>
+
+
+</RelativeLayout>

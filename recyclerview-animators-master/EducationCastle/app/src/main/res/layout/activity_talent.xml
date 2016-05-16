@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/second_talent_background">
+
+    <include layout="@layout/activity_second_title"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:scrollbars="none"
+        android:id="@+id/rv_second_content_container"
+        android:layout_marginLeft="@dimen/y121"
+        android:layout_marginTop="@dimen/x96"
+        android:layout_width="@dimen/y252"
+        android:layout_height="@dimen/x160"/>
+    <TextView
+        android:id="@+id/tv_second_page"
+        android:layout_marginTop="@dimen/x272"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/2"
+        android:textColor="@android:color/background_dark"
+        android:textSize="@dimen/x15"
+        android:visibility="invisible"/>
+    <!-- 左边的手-->
+    <ImageView
+        android:id="@+id/iv_second_hand_left"
+        android:layout_marginLeft="@dimen/y204"
+        android:layout_marginTop="@dimen/x270"
+        android:layout_width="@dimen/y23"
+        android:layout_height="@dimen/y22"
+        android:background="@mipmap/iv_second_hand_left"
+        android:visibility="invisible"/>
+    <!-- 左边的手 动画-->
+    <ImageView
+        android:id="@+id/iv_second_hand_left_animation"
+        android:layout_marginLeft="@dimen/y204"
+        android:layout_marginTop="@dimen/x269"
+        android:layout_width="@dimen/y23"
+        android:layout_height="@dimen/y22"
+        android:background="@mipmap/iv_second_hand_left_animation"
+        android:visibility="invisible"/>
+    <!-- 右边的手-->
+    <ImageView
+        android:id="@+id/iv_second_hand_right"
+        android:layout_marginLeft="@dimen/y254"
+        android:layout_marginTop="@dimen/x270"
+        android:layout_width="@dimen/y23"
+        android:layout_height="@dimen/y22"
+        android:background="@mipmap/iv_second_hand_right"
+        android:visibility="invisible"/>
+    <!-- 右边的手 动画-->
+    <ImageView
+        android:id="@+id/iv_second_hand_right_animation"
+        android:layout_marginLeft="@dimen/y254"
+        android:layout_marginTop="@dimen/x269"
+        android:layout_width="@dimen/y23"
+        android:layout_height="@dimen/y22"
+        android:background="@mipmap/iv_second_hand_right_animation"
+        android:visibility="invisible"/>
+
+
+    <!-- 课程介绍-->
+    <ImageView
+        android:id="@+id/iv_second_word_talent"
+        android:layout_marginLeft="@dimen/y30"
+        android:layout_marginTop="@dimen/x124"
+        android:layout_width="@dimen/y59"
+        android:layout_height="@dimen/x32"
+        />
+</RelativeLayout>

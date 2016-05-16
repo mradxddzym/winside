@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/watch_tv_background">
+
+    <ImageView
+        android:layout_width="@dimen/y173"
+        android:layout_height="@dimen/x78"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/x15"
+        android:layout_marginTop="@dimen/y11"
+        android:background="@mipmap/balloon_background" />
+    <!--视频位 这里一定要注意宽度改变，使得空白填充更满些-->
+
+    <ImageView
+        android:id="@+id/tv_backbround"
+        android:layout_width="@dimen/y388"
+        android:layout_height="@dimen/x70"
+        android:layout_marginLeft="@dimen/x47"
+        android:layout_marginTop="@dimen/x215"
+        android:background="@mipmap/tv_table" />
+    <!--视频位左箭头-->
+    <ImageView
+        android:id="@+id/tv_arrow_left"
+        android:layout_width="@dimen/y30"
+        android:layout_height="@dimen/x20"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/x60"
+        android:layout_marginLeft="@dimen/y50"
+        android:background="@drawable/tv_arrow_q_selector"
+        android:focusable="true" />
+    <!--视频为右箭头-->
+    <ImageView
+        android:id="@+id/tv_arrow_right"
+        android:layout_width="@dimen/y30"
+        android:layout_height="@dimen/x20"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/x60"
+        android:layout_marginLeft="@dimen/y398"
+        android:background="@drawable/tv_arrow_n_selector"
+        android:focusable="true" />
+    <!--返回键-->
+    <ImageView
+        android:id="@+id/tv_play_back"
+        android:layout_width="@dimen/y26"
+        android:layout_height="@dimen/x31"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/y17"
+        android:layout_marginTop="@dimen/x21"
+        android:background="@drawable/tv_play_selector"
+        android:focusable="true" />
+    <!--播放暂停键-->
+    <ImageView
+        android:id="@+id/tv_play_pause"
+        android:layout_width="@dimen/y26"
+        android:layout_height="@dimen/x31"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/y42"
+        android:layout_marginTop="@dimen/x10"
+        android:background="@drawable/tv_pasueplay_selector"
+        android:focusable="true" />
+    <!--视频收藏键-->
+    <ImageView
+        android:id="@+id/tv_store"
+        android:layout_width="@dimen/y26"
+        android:layout_height="@dimen/x31"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/y70"
+        android:layout_marginTop="@dimen/x15"
+        android:background="@drawable/tv_storeplay_selector"
+        android:focusable="true" />
+    <!--播放快进键-->
+    <ImageView
+        android:id="@+id/tv_play_fast"
+        android:layout_width="@dimen/y26"
+        android:layout_height="@dimen/x31"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/y98"
+        android:layout_marginTop="@dimen/x15"
+        android:background="@drawable/tv_fastplay_selector"
+        android:focusable="true" />
+    <!--播放慢进键-->
+    <ImageView
+        android:id="@+id/tv_play_slow"
+        android:layout_width="@dimen/y26"
+        android:layout_height="@dimen/x31"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/y125"
+        android:layout_marginTop="@dimen/x22"
+        android:background="@drawable/tv_slowplay_selector"
+        android:focusable="true"
+        android:nextFocusLeft="@id/tv_play_back" />
+    <!--展示数据-->
+
+    <HorizontalScrollView
+        android:layout_width="@dimen/y296"
+        android:layout_height="@dimen/x60"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/x47"
+        android:layout_marginLeft="@dimen/y86"
+        android:fillViewport="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/tv_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <!--走马灯-->
+    <com.winside.edu.castle.view.MarqueeText
+       android:layout_marginTop="@dimen/x304"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/marquee_message"/>
+</RelativeLayout>

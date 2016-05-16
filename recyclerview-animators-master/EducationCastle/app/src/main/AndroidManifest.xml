@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.winside.edu.castle">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+    <application
+        android:name=".base.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <activity android:name="com.winside.edu.castle.activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.QuitTvActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.AnimationActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".activity.EnglishActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.PictureBookActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.StoryActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.StudyActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.TalentActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".activity.UserCenterAchievenmentActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.UserCenterPetActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.UserCenterCollectionActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.UserCenterRecordActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.UserCenterResponseActivity"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".activity.ParentMustWatchActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.OrderActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.WatchTvActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.VideoListPageActivity"
+            android:screenOrientation="landscape" />
+
+    </application>
+
+</manifest>

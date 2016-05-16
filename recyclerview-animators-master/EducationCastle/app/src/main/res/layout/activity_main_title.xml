@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:id="@+id/main_title_container"
+    >
+
+    <ImageView
+        android:paddingLeft="@dimen/y7"
+        android:paddingTop="@dimen/x6"
+        android:paddingBottom="@dimen/x3"
+        android:paddingRight="@dimen/y5"
+        android:tag="0"
+        android:focusable="true"
+        android:layout_marginTop="@dimen/x22"
+        android:layout_marginLeft="@dimen/y178"
+        android:id="@+id/main_title_animation"
+        android:layout_width="@dimen/x56"
+        android:layout_height="@dimen/y46"
+       />
+    <!---->
+
+   <ImageView
+       android:paddingLeft="@dimen/y7"
+       android:paddingTop="@dimen/x6"
+       android:paddingBottom="@dimen/x3"
+       android:paddingRight="@dimen/y5"
+       android:tag="1"
+       android:focusable="true"
+       android:layout_marginTop="@dimen/x22"
+       android:layout_marginLeft="@dimen/y215"
+        android:id="@+id/main_title_picture_book"
+       android:layout_width="@dimen/x56"
+       android:layout_height="@dimen/y46"
+
+       />
+<!---->
+    <ImageView
+        android:paddingLeft="@dimen/y7"
+        android:paddingTop="@dimen/x6"
+        android:paddingBottom="@dimen/x3"
+        android:paddingRight="@dimen/y5"
+        android:tag="2"
+        android:focusable="true"
+        android:layout_marginTop="@dimen/x22"
+        android:layout_marginLeft="@dimen/y257"
+       android:id="@+id/main_title_english"
+        android:layout_width="@dimen/x56"
+        android:layout_height="@dimen/y46"
+        />
+<!---->
+   <ImageView
+       android:paddingLeft="@dimen/y7"
+       android:paddingTop="@dimen/x6"
+       android:paddingBottom="@dimen/x3"
+       android:paddingRight="@dimen/y5"
+       android:tag="3"
+       android:focusable="true"
+       android:layout_marginTop="@dimen/x22"
+       android:layout_marginLeft="@dimen/y297"
+       android:id="@+id/main_title_talent"
+       android:layout_width="@dimen/x56"
+       android:layout_height="@dimen/y46"
+       />
+<!---->
+   <ImageView
+       android:paddingLeft="@dimen/y7"
+       android:paddingTop="@dimen/x6"
+       android:paddingBottom="@dimen/x3"
+       android:paddingRight="@dimen/y5"
+       android:tag="4"
+       android:focusable="true"
+       android:layout_marginTop="@dimen/x22"
+       android:layout_marginLeft="@dimen/y338"
+       android:id="@+id/main_title_story"
+       android:layout_width="@dimen/x56"
+       android:layout_height="@dimen/y46"
+
+       />
+<!---->
+   <ImageView
+       android:paddingLeft="@dimen/y7"
+       android:paddingTop="@dimen/x6"
+       android:paddingBottom="@dimen/x3"
+       android:paddingRight="@dimen/y5"
+       android:tag="5"
+       android:focusable="true"
+       android:layout_marginTop="@dimen/x22"
+       android:layout_marginLeft="@dimen/y380"
+       android:id="@+id/main_title_study"
+       android:layout_width="@dimen/x56"
+       android:layout_height="@dimen/y46"
+       />
+<!---->
+</RelativeLayout>

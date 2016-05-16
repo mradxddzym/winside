@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_must_watch_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/parent_watch_introduce_background">
+<!-- 精品介绍-->
+    <ImageView
+        android:id="@+id/parent_watch_introduce"
+        android:layout_width="@dimen/y77"
+        android:layout_height="@dimen/x22"
+        android:layout_marginTop="@dimen/x112"
+        android:focusable="true"
+        android:background="@drawable/selector_parent_watch_introduce" />
+    <!-- 课程体系-->
+    <ImageView
+        android:id="@+id/parent_watch_system"
+        android:layout_width="@dimen/y77"
+        android:layout_height="@dimen/x22"
+        android:layout_marginTop="@dimen/x152"
+        android:focusable="true"
+        android:background="@drawable/selector_parent_watch_system" />
+    <!-- 育儿讲堂-->
+    <ImageView
+        android:id="@+id/parent_watch_classroom"
+        android:layout_width="@dimen/y77"
+        android:layout_height="@dimen/x22"
+        android:layout_marginTop="@dimen/x192"
+        android:focusable="true"
+        android:background="@drawable/selector_parent_watch_classroom" />
+    <!-- 课程体系 返回-->
+    <ImageView
+        android:id="@+id/parent_watch_back"
+        android:layout_marginTop="@dimen/x227"
+        android:layout_width="@dimen/y77"
+        android:layout_height="@dimen/x22"
+        android:focusable="true"
+        android:background="@drawable/selector_parent_watch_back" />
+    <!-- 课程体系 课程体系苹果树-->
+    <ImageView
+        android:id="@+id/parent_watch_apple_tree"
+        android:layout_marginLeft="@dimen/y158"
+        android:layout_marginTop="@dimen/x36"
+        android:layout_width="@dimen/y237"
+        android:layout_height="@dimen/x158"
+        android:background="@mipmap/parent_watch_system_animation_apple"
+        android:visibility="invisible"/>
+    <!-- 课程体系 动画-->
+    <ImageView
+        android:id="@+id/parent_watch_system_animation"
+        android:layout_marginLeft="@dimen/y169"
+        android:layout_marginTop="@dimen/x213"
+        android:layout_width="@dimen/y29"
+        android:layout_height="@dimen/x51"
+        android:focusable="true"
+        android:nextFocusLeft="@id/parent_watch_system"
+        android:background="@drawable/selector_parent_watch_system_animation"
+        android:visibility="invisible"/>
+    <!-- 课程体系 游戏-->
+    <ImageView
+        android:id="@+id/parent_watch_system_game"
+        android:layout_marginLeft="@dimen/y205"
+        android:layout_marginTop="@dimen/x213"
+        android:layout_width="@dimen/y29"
+        android:layout_height="@dimen/x51"
+        android:focusable="true"
+        android:background="@drawable/selector_parent_watch_system_game"
+        android:visibility="invisible"/>
+    <!-- 课程体系 英语-->
+    <ImageView
+        android:id="@+id/parent_watch_system_english"
+        android:layout_marginLeft="@dimen/y241"
+        android:layout_marginTop="@dimen/x213"
+        android:layout_width="@dimen/y29"
+        android:layout_height="@dimen/x51"
+        android:focusable="true"
+        android:background="@drawable/selector_parent_watch_system_english"
+        android:visibility="invisible"/>
+    <!-- 课程体系 才艺-->
+    <ImageView
+        android:id="@+id/parent_watch_system_talent"
+        android:layout_marginLeft="@dimen/y277"
+        android:layout_marginTop="@dimen/x213"
+        android:layout_width="@dimen/y29"
+        android:layout_height="@dimen/x51"
+        android:focusable="true"
+        android:background="@drawable/selector_parent_watch_system_talent"
+        android:visibility="invisible"/>
+    <!-- 课程体系 故事-->
+    <ImageView
+        android:id="@+id/parent_watch_system_story"
+        android:layout_marginLeft="@dimen/y313"
+        android:layout_marginTop="@dimen/x213"
+        android:layout_width="@dimen/y29"
+        android:layout_height="@dimen/x51"
+        android:focusable="true"
+        android:background="@drawable/selector_parent_watch_system_story"
+        android:visibility="invisible"/>
+    <!-- 课程体系 学园-->
+    <ImageView
+        android:id="@+id/parent_watch_system_study"
+        android:layout_marginLeft="@dimen/y349"
+        android:layout_marginTop="@dimen/x213"
+        android:layout_width="@dimen/y29"
+        android:layout_height="@dimen/x51"
+        android:focusable="true"
+        android:background="@drawable/selector_parent_watch_system_study"
+        android:visibility="invisible"/>
+    <!-- 育儿讲堂  文字-->
+    <ImageView
+        android:id="@+id/parent_watch_classroom_word"
+        android:layout_marginLeft="@dimen/y120"
+        android:layout_marginTop="@dimen/x40"
+        android:layout_width="@dimen/y313"
+        android:layout_height="@dimen/x84"
+        android:background="@mipmap/parent_watch_classroom_word"/>
+    <!-- 育儿讲堂  图片1-->
+    <ImageView
+        android:id="@+id/parent_watch_classroom_one"
+        android:layout_marginLeft="@dimen/y143"
+        android:layout_marginTop="@dimen/x169"
+        android:layout_width="@dimen/y76"
+        android:layout_height="@dimen/x124"
+        android:focusable="true"
+        android:nextFocusLeft="@id/parent_watch_classroom"
+        android:background="@mipmap/parent_watch_classroom_image_one"
+        android:visibility="invisible"/>
+    <!-- 育儿讲堂  图片1 闪动-->
+    <ImageView
+        android:id="@+id/parent_watch_classroom_one_animation"
+        android:layout_marginLeft="@dimen/y137"
+        android:layout_marginTop="@dimen/x162"
+        android:layout_width="@dimen/y89"
+        android:layout_height="@dimen/x139"
+        android:background="@drawable/animation_parent_watch_classroom"
+        android:visibility="invisible"/>
+    <!-- 育儿讲堂  图片2-->
+    <ImageView
+        android:id="@+id/parent_watch_classroom_two"
+        android:layout_marginLeft="@dimen/y236"
+        android:layout_marginTop="@dimen/x169"
+        android:layout_width="@dimen/y76"
+        android:layout_height="@dimen/x124"
+        android:focusable="true"
+        android:background="@mipmap/parent_watch_classroom_image_two"
+        android:visibility="invisible"/>
+    <!-- 育儿讲堂  图片2 闪动-->
+    <ImageView
+        android:id="@+id/parent_watch_classroom_two_animation"
+        android:layout_marginLeft="@dimen/y230"
+        android:layout_marginTop="@dimen/x162"
+        android:layout_width="@dimen/y89"
+        android:layout_height="@dimen/x139"
+        android:background="@drawable/animation_parent_watch_classroom"
+        android:visibility="invisible"/>
+    <!-- 育儿讲堂  图片3-->
+    <ImageView
+        android:id="@+id/parent_watch_classroom_three"
+        android:layout_marginLeft="@dimen/y330"
+        android:layout_marginTop="@dimen/x169"
+        android:layout_width="@dimen/y76"
+        android:layout_height="@dimen/x124"
+        android:focusable="true"
+        android:background="@mipmap/parent_watch_classroom_image_three"
+        android:visibility="invisible"/>
+    <!-- 育儿讲堂  图片3 闪动-->
+    <ImageView
+        android:id="@+id/parent_watch_classroom_three_animation"
+        android:layout_marginLeft="@dimen/y324"
+        android:layout_marginTop="@dimen/x162"
+        android:layout_width="@dimen/y89"
+        android:layout_height="@dimen/x139"
+        android:background="@drawable/animation_parent_watch_classroom"
+        android:visibility="invisible"/>
+
+    <com.winside.edu.castle.view.FancyCoverFlow
+        android:focusable="false"
+        android:nextFocusLeft="@id/parent_watch_introduce"
+        android:id="@+id/fancyCoverFlow"
+        android:layout_marginLeft="@dimen/y120"
+        android:layout_marginTop="@dimen/x90"
+        android:layout_width="@dimen/y300"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

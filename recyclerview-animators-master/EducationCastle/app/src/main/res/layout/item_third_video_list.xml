@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="true"
+    android:layout_width="@dimen/y79"
+    android:layout_height="@dimen/x67">
+    <ImageView
+        android:focusable="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/item_iv_third_video_list"
+        android:layout_width="@dimen/y68"
+        android:layout_height="@dimen/x53" />
+    <ImageView
+        android:id="@+id/item_iv_third_video_list_animation"
+        android:layout_width="@dimen/y79"
+        android:layout_height="@dimen/x67"
+        android:background="@drawable/animation_second_content"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

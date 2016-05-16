@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/y70"
+    android:layout_height="@dimen/x111">
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_item_middle"
+        android:layout_width="@dimen/y70"
+        android:layout_height="@dimen/x111"/>
+    <ImageView
+        android:id="@+id/iv_main_item_middle_animation"
+        android:layout_marginTop="@dimen/x80"
+        android:layout_width="@dimen/y70"
+        android:layout_height="@dimen/x35"/>
+</FrameLayout>

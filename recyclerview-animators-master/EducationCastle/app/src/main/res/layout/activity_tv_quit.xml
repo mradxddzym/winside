@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="@dimen/y110"
+        android:layout_height="@dimen/x124"
+        android:layout_marginLeft="@dimen/y120"
+        android:layout_marginTop="@dimen/x70"
+        android:background="@mipmap/quit_popup_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/tv_continue"
+            android:layout_width="@dimen/y57"
+            android:layout_height="@dimen/x21"
+            android:layout_marginTop="@dimen/x20"
+            android:background="@drawable/continue_tv"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/tv_quit"
+            android:layout_width="@dimen/y57"
+            android:layout_height="@dimen/x21"
+            android:layout_marginTop="@dimen/x5"
+            android:background="@drawable/quit_tv"
+            android:focusable="true" />
+
+        <ImageView
+            android:id="@+id/tv_store"
+            android:layout_width="@dimen/y57"
+            android:layout_height="@dimen/x21"
+            android:layout_marginTop="@dimen/x5"
+            android:background="@drawable/store_tv"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/y378"
+        android:layout_height="@dimen/x85"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/y5"
+        android:background="@mipmap/quit_tv_recommend">
+        <LinearLayout
+            android:id="@+id/tv_four_recomend"
+            android:layout_width="@dimen/y292"
+            android:layout_height="@dimen/x55"
+            android:layout_marginLeft="@dimen/y69"
+            android:layout_marginTop="@dimen/x17"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

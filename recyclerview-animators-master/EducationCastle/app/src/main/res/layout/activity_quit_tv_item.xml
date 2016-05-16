@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/y80"
+    android:layout_height="@dimen/x65">
+    <!-- FrameLayout改变间距大小
+    android:layout_width="@dimen/y75"
+        android:layout_height="@dimen/x63"-->
+    <ImageView
+        android:id="@+id/tv_play_item"
+        android:layout_width="@dimen/y60"
+        android:layout_height="@dimen/x55"
+        android:layout_gravity="center"
+        android:focusable="true" />
+    <!--光标不要有焦点，不然会抢去图片焦点-->
+    <ImageView
+        android:id="@+id/tv_play_curser"
+        android:layout_width="@dimen/y70"
+        android:layout_height="@dimen/x63"
+        android:layout_gravity="center" />
+
+  <TextView
+        android:id="@+id/tv_play_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/x47"
+        android:textSize="@dimen/x8"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</FrameLayout>

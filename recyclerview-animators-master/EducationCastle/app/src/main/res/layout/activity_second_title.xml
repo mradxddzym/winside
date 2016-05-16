@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/second_container">
+    <!-- 动画 -->
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_second_animation"
+        android:layout_marginLeft="@dimen/y100"
+        android:layout_marginTop="@dimen/x24"
+        android:layout_width="@dimen/y38"
+        android:layout_height="@dimen/x45"/>
+    <!-- 动画 闪动-->
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_second_animation_animation"
+        android:layout_marginLeft="@dimen/y94"
+        android:layout_marginTop="@dimen/x18"
+        android:layout_width="@dimen/y49"
+        android:layout_height="@dimen/x55"
+        android:visibility="invisible"/>
+    <!-- 绘本 -->
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_second_picturebook"
+        android:layout_marginLeft="@dimen/y149"
+        android:layout_marginTop="@dimen/x24"
+        android:layout_width="@dimen/y38"
+        android:layout_height="@dimen/x45"/>
+    <!-- 绘本 闪动-->
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_second_picturebook_animation"
+        android:layout_marginLeft="@dimen/y143"
+        android:layout_marginTop="@dimen/x19"
+        android:layout_width="@dimen/y49"
+        android:layout_height="@dimen/x55"
+        android:visibility="invisible"/>
+    <!-- 英语 -->
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_second_english"
+        android:layout_marginLeft="@dimen/y197"
+        android:layout_marginTop="@dimen/x24"
+        android:layout_width="@dimen/y38"
+        android:layout_height="@dimen/x45"/>
+    <!-- 英语 闪动-->
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_second_english_animation"
+        android:layout_marginLeft="@dimen/y192"
+        android:layout_marginTop="@dimen/x19"
+        android:layout_width="@dimen/y49"
+        android:layout_height="@dimen/x55"
+        android:visibility="invisible"/>
+    <!-- 才艺 -->
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_second_talent"
+        android:layout_marginLeft="@dimen/y246"
+        android:layout_marginTop="@dimen/x24"
+        android:layout_width="@dimen/y38"
+        android:layout_height="@dimen/x45"/>
+    <!-- 才艺 闪动-->
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_second_talent_animation"
+        android:layout_marginLeft="@dimen/y240"
+        android:layout_marginTop="@dimen/x19"
+        android:layout_width="@dimen/y49"
+        android:layout_height="@dimen/x55"
+        android:visibility="invisible"/>
+    <!-- 故事 -->
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_second_story"
+        android:layout_marginLeft="@dimen/y295"
+        android:layout_marginTop="@dimen/x24"
+        android:layout_width="@dimen/y38"
+        android:layout_height="@dimen/x45"/>
+    <!-- 故事 闪动-->
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_second_story_animation"
+        android:layout_marginLeft="@dimen/y289"
+        android:layout_marginTop="@dimen/x19"
+        android:layout_width="@dimen/y49"
+        android:layout_height="@dimen/x55"
+        android:visibility="invisible"/>
+    <!-- 学园 -->
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_second_study"
+        android:layout_marginLeft="@dimen/y346"
+        android:layout_marginTop="@dimen/x24"
+        android:layout_width="@dimen/y38"
+        android:layout_height="@dimen/x45"
+        android:nextFocusRight="@id/iv_second_animation"/>
+    <!-- 学园 闪动-->
+    <ImageView
+        android:focusable="true"
+        android:id="@+id/iv_second_study_animation"
+        android:layout_marginLeft="@dimen/y340"
+        android:layout_marginTop="@dimen/x19"
+        android:layout_width="@dimen/y49"
+        android:layout_height="@dimen/x55"
+        android:visibility="invisible"/>
+
+    <!-- 返回 -->
+    <ImageView
+        android:id="@+id/iv_second_back"
+        android:layout_marginLeft="@dimen/y411"
+        android:layout_marginTop="@dimen/x18"
+        android:layout_width="@dimen/y42"
+        android:layout_height="@dimen/x23"
+        android:focusable="true"
+        android:background="@mipmap/iv_second_back"/>
+
+    <!-- 返回 闪动-->
+    <ImageView
+        android:id="@+id/iv_second_back_animation"
+        android:layout_marginLeft="@dimen/y405"
+        android:layout_marginTop="@dimen/x11"
+        android:layout_width="@dimen/y54"
+        android:layout_height="@dimen/x37"
+        android:background="@mipmap/iv_second_back_animation"
+        android:visibility="invisible"/>
+
+    <!-- 嗨皮城堡  logo-->
+    <ImageView
+        android:layout_marginLeft="@dimen/y17"
+        android:layout_marginTop="@dimen/x21"
+        android:layout_width="@dimen/y79"
+        android:layout_height="@dimen/x33"
+        android:background="@mipmap/iv_second_logo"/>
+
+    <!-- 动画 透明圆圈-->
+    <ImageView
+        android:id="@+id/iv_second_aniamtion_circle"
+        android:layout_marginLeft="@dimen/y98"
+        android:layout_marginTop="@dimen/x19"
+        android:layout_width="@dimen/y42"
+        android:layout_height="@dimen/x50"
+        android:background="@mipmap/iv_second_transparent_circle"
+        android:visibility="invisible"/>
+    <!-- 绘本 透明圆圈-->
+    <ImageView
+        android:id="@+id/iv_second_picturebook_circle"
+        android:layout_marginLeft="@dimen/y147"
+        android:layout_marginTop="@dimen/x19"
+        android:layout_width="@dimen/y42"
+        android:layout_height="@dimen/x50"
+        android:background="@mipmap/iv_second_transparent_circle"
+        android:visibility="invisible"/>
+    <!-- 英语 透明圆圈-->
+    <ImageView
+        android:id="@+id/iv_second_english_circle"
+        android:layout_marginLeft="@dimen/y195"
+        android:layout_marginTop="@dimen/x19"
+        android:layout_width="@dimen/y42"
+        android:layout_height="@dimen/x50"
+    android:background="@mipmap/iv_second_transparent_circle"
+    android:visibility="invisible"/>
+    <!-- 才艺 透明圆圈-->
+    <ImageView
+        android:id="@+id/iv_second_talent_circle"
+        android:layout_marginLeft="@dimen/y244"
+        android:layout_marginTop="@dimen/x19"
+        android:layout_width="@dimen/y42"
+        android:layout_height="@dimen/x50"
+        android:background="@mipmap/iv_second_transparent_circle"
+        android:visibility="invisible"/>
+    <!-- 故事 透明圆圈-->
+    <ImageView
+        android:id="@+id/iv_second_story_circle"
+        android:layout_marginLeft="@dimen/y293"
+        android:layout_marginTop="@dimen/x19"
+        android:layout_width="@dimen/y42"
+        android:layout_height="@dimen/x50"
+        android:background="@mipmap/iv_second_transparent_circle"
+        android:visibility="invisible"/>
+    <!-- 学园 透明圆圈-->
+    <ImageView
+        android:id="@+id/iv_second_study_circle"
+        android:layout_marginLeft="@dimen/y342"
+        android:layout_marginTop="@dimen/x19"
+        android:layout_width="@dimen/y42"
+        android:layout_height="@dimen/x50"
+        android:background="@mipmap/iv_second_transparent_circle"
+        android:visibility="invisible"/>
+
+
+
+</RelativeLayout>
